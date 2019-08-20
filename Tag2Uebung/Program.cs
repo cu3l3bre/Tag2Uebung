@@ -59,6 +59,10 @@ namespace Tag2Uebung
 
             Console.WriteLine("Trimmen mit 'l': " + myString);
 
+
+            Console.WriteLine("Letzter Index wo 'l' gefunden wurde: ' " + myString.LastIndexOf('l'));
+            Console.WriteLine("Letzter Index wo '.' gefunden wurde: ' " + myString.LastIndexOf('.'));
+
             Console.ReadKey();
 
         }
